@@ -34,6 +34,14 @@ After scanning the scan end timestamp is inserted at the first row, column being
 
 In my case im working with a WinCC OPC-UA Server for PCS 7 Siemens
 
+## Timings:
+Difference between safe mode and unsafe mode is simply that safe mode waits for previous result before going to next cell, unsafe mode doesnt await the result
+
+### Safe Mode
+When using safe mode a full scan of 2000 nodes took 01:54 (mm:ss)
+### Unsafe Mode
+When using unsafe mode a full scan of 2000 nodes took 00:18.77 (mm:ss.SS)
+
 ## Built With
 
 * [Convertersystems OPC-UA-CLIENT](https://github.com/convertersystems/opc-ua-client/)) - OPC UA Client ✅
