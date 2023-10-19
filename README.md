@@ -26,6 +26,8 @@ OPC example:
 After scanning the scan end timestamp is inserted at the first row, column being offset time+1 
 ![Animation](https://github.com/Khasar11/ExcelInformer/assets/67635910/9d2a8cec-9fa5-4b32-9543-641975fe1388)
 
+In my case im working with a WinCC OPC-UA Server for PCS 7 Siemens
+
 ## Built With
 
 * [Convertersystems OPC-UA-CLIENT](https://github.com/convertersystems/opc-ua-client/)) - OPC UA Client ✅
