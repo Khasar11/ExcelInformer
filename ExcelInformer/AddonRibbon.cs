@@ -123,7 +123,7 @@ namespace ExcelInformer
                 scanEnd.Label = endTime + "";
                 scanTime.Label = (DateTime.Now - beginTime + "").Substring(0, 11);
 
-                try
+                try // all cell modifications should be in try catch
                 {
                     dataRange.Item[1].Offset[0, uint.Parse(offsetTime.Text) + 1].Value2 = DateTime.Now + ""; // last scan time
                 } catch(Exception e) { Console.WriteLine(e); }
