@@ -146,7 +146,6 @@ namespace ExcelInformer
         private IChannelClient getChannelClientFromUrl(string url)
         {
             if (url.Contains("opc.tcp")) return new OPCuaClient();
-            if (url.Contains("mongodb")) return new MongoDBClient();
             return null;
         }
 

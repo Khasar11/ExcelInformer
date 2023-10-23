@@ -35,7 +35,7 @@
     <PublishUrl>publish\</PublishUrl>
     <InstallUrl />
     <TargetCulture>en</TargetCulture>
-    <ApplicationVersion>1.0.0.106</ApplicationVersion>
+    <ApplicationVersion>1.0.0.107</ApplicationVersion>
     <AutoIncrementApplicationRevision>true</AutoIncrementApplicationRevision>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateInterval>7</UpdateInterval>
@@ -336,7 +336,6 @@
   <ItemGroup>
     <Compile Include="Clients\ChannelClient.cs" />
     <Compile Include="Clients\IChannelClient.cs" />
-    <Compile Include="Clients\MongoDBClient.cs" />
     <Compile Include="Clients\OPCuaClient.cs" />
     <Compile Include="Help.cs">
       <SubType>Form</SubType>

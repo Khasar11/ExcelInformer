@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 
 namespace ExcelInformer.Clients
 {
-    public interface IChannelClient
+    public interface IChannelClient // makes implementation of different db types easier
     {
         Task<string> Read(string address); // returns null if read failure
         Task<bool> Connect(string url); // false if connection failed, url only based 
